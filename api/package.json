@@ -1,0 +1,23 @@
+{
+  "name": "api_reminders",
+  "version": "1.0.0",
+  "description": "API to manage reminders",
+  "main": "src/index.js",
+  "author": "Arthur Lelis",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -L src/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "4.3.4",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "chai-http": "^5.0.0",
+    "globals": "^15.9.0",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
