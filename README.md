@@ -1,5 +1,5 @@
 
-# Manager Reminder
+# Reminder Manager
 
 Aplicação web responsável pela gestão de lembretes, desenvolvida em React (frontend), utilizando o [Create React App](https://create-react-app.dev/), e Node.js (backend), utilizando [Express](https://expressjs.com/pt-br/).
 
