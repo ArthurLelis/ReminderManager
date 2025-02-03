@@ -65,4 +65,4 @@ Para executar os testes unitários, siga os passos 1 e 2 acima e, em seguida, ex
 
 ## Demonstração do projeto
 
-<video src="./fe/src/assets/videos/video.mp4" controls width="600"></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L1kKDZL6ky4?si=HWu7i8dHiDIto_wv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
