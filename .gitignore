@@ -1,3 +1,5 @@
 api/node_modules
 fe/node_modules
 .editorconfig
+api/.yarn
+fe/.yarn

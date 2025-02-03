@@ -1,36 +1,46 @@
-
 # Reminder Manager
 
-Aplicação web responsável pela gestão de lembretes, desenvolvida em React (frontend), utilizando o [Create React App](https://create-react-app.dev/), e Node.js (backend), utilizando [Express](https://expressjs.com/pt-br/).
+## Sumário
 
-# Premissas
+- [Sobre](#sobre)
+- [Tecnologias](#tecnologias)
+- [Instruções para Executar o Sistema](#instruções-para-executar-o-sistema)
+- [Executando o Backend](#executando-o-backend)
+- [Executando o Frontend](#executando-o-frontend)
+- [Features](#Features)
+- [Demonstração do projeto](#demonstração-do-projeto)
 
-Com base nos objetivos e especificações técnicas estabelecidas no teste prático, assumi a necessidade de criar uma aplicação web que priorizasse tanto a experiência do usuário quanto a qualidade do código. Por isso, foquei na organização do código, separando os arquivos em pastas de acordo com suas respectivas responsabilidades.
+## Sobre
 
-Para proporcionar uma melhor experiência ao usuário, preocupei-me em implementar validações claras e objetivas, mensagens de erro e sucesso bem descritas, e a confirmação dupla na exclusão de lembretes para evitar a remoção acidental.
+Aplicação web responsável pela gestão de lembretes. Este projeto
 
-# Decisões de Projeto
+## Tecnologias
 
-Em ambas as arquiteturas, busquei oferecer uma clara separação de responsabilidades, facilitando a manutenção e escalabilidade do sistema. Isso promove a reutilização de código e a modularidade, permitindo que diferentes partes da aplicação sejam desenvolvidas, testadas e mantidas de forma independente.
+- [Create React App](https://create-react-app.dev/)
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
 
-No backend, utilizei a estrutura **Arquitetura em Camadas (Layered Architecture)**, e no frontend, optei pela **Arquitetura Modular ou Componentizada**.
-
-# Instruções para Executar o Sistema
+## Instruções para Executar o Sistema
 
 Para baixar o repositório em sua máquina, utilize o comando:
 
-> **git clone `https://github.com/ArthurLelis/ManagerReminder.git`**
+```bash
+# Clone o repositório
+git clone https://github.com/ArthurLelis/ReminderManager.git
+```
 
-## Configuração Inicial
+E depois:
 
-1.  Instale o [Node.js](https://nodejs.org/pt).
-2.  Reinicie o seu computador.
+```bash
+# Acesse o diretório do projeto
+cd ReminderManager
+```
 
 ### Executando o Backend
 
 Para iniciar a execução do backend:
 
-1.  Acesse a pasta **api**.
+1.  Acesse a pasta **api**: `cd api`.
 2.  Execute: `npm install`.
 3.  Execute: `npm start`.
 
@@ -40,8 +50,19 @@ Para executar os testes unitários, siga os passos 1 e 2 acima e, em seguida, ex
 
 Para iniciar a execução do frontend:
 
-1.  Acesse a pasta **fe**.
+1.  Acesse a pasta **fe**: `cd fe`.
 2.  Execute: `npm install`.
 3.  Execute: `npm start`.
 
 Para executar os testes unitários, siga os passos 1 e 2 acima e, em seguida, execute: `npm test`.
+
+## Features
+- Criar banco de dados;
+- Editar lembrete;
+- Login/Logout;
+- Alterar tema;
+- Excluir vários lembretes de uma vez;
+
+## Demonstração do projeto
+
+<video src="./fe/src/assets/videos/video.mp4" controls width="600"></video>
