@@ -3,6 +3,7 @@
 ## Sumário
 
 - [Sobre](#sobre)
+- [Sobre o Teste](#sobre-o-teste)
 - [Tecnologias](#tecnologias)
 - [Instruções para Executar o Sistema](#instruções-para-executar-o-sistema)
 - [Executando o Backend](#executando-o-backend)
